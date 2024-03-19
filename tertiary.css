@@ -52,19 +52,24 @@ body {
     z-index: -1;
 }
 
-.homeContent {
+.tertiaryContent {
     display: flex;
     background-color: #ddd;
 }
 
-.homeTextContent {
+.tertiaryTextContent {
     flex: 1;
-    max-width: 20%;
+   justify-self: auto;
     padding: 30px;
 }
-
-.homeContentImage {
-    flex: 2;
-    height: 300px;
-    margin-top: 50px;
+footer{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+.mediaLink{
+    height: 30px;
+    margin: 20px;
 }
