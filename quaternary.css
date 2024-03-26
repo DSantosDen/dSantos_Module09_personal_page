@@ -36,12 +36,7 @@ body {
     background-color: #04AA6D;
     color: white;
 }
-.homePageQuote {
-    font-family: cursive, Arial, sans-serif, serif;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 3px 3px 2px #ffffff;
-}
+
 .backGroundContainer {
     background-image: linear-gradient(to right, #b8c5bd, #0d5c02);
     height: 100vh;
@@ -51,18 +46,10 @@ body {
     width: 100vw;
     z-index: -1;
 }
-
-.secondaryContent {
-    display: flex;
-    background-color: #ddd;
+form{
+    display: block;
+    margin-left: 2rem;
 }
-
-.secondaryTextContent {
-    flex: 1;
-   justify-self: auto;
-    padding: 30px;
-}
-
 footer{
     width: 100%;
     display: flex;
