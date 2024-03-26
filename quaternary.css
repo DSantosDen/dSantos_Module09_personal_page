@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.topNavBarLinks {
+    background-color: #313030;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.pageOwner {
+    color: #f2f2f2;
+    float: inline-start;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: left;
+}
+
+.topNavBarLinks a {
+    color: #f2f2f2;
+    float: right;
+    font-size: 17px;
+    padding: 14px 16px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.topNavBarLinks a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topNavBarLinks a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.homePageQuote {
+    font-family: cursive, Arial, sans-serif, serif;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px 2px #ffffff;
+}
+.backGroundContainer {
+    background-image: linear-gradient(to right, #b8c5bd, #0d5c02);
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.secondaryContent {
+    display: flex;
+    background-color: #ddd;
+}
+
+.secondaryTextContent {
+    flex: 1;
+   justify-self: auto;
+    padding: 30px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+}
+.mediaLink{
+    height: 30px;
+    margin: 20px;
+}
