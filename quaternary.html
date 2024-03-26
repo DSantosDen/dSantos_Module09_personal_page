@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dSantos Module 9 Contact page</title>
-    <link rel="stylesheet" href="./quaternary.css">
+    <link rel="stylesheet" href="./quaternary.css" />
   </head>
+
   <body>
     <div class="backGroundContainer"></div>
     <div class="topNavBarLinks">
@@ -15,26 +16,42 @@
       <a href="tertiarypage.html">About</a>
       <a href="quaternary.html">Contact</a>
     </div>
-    <div>
-      <h1><q class="homePageQuote">May the bridges I burn light my way</q></h1>
-
-    </div>
     <main>
-      <div class="homeContent">
-        <div class="homeTextContent">
-          <h2>Senior CAD Designer</h2>
-          <p>
-            Dedicated professional with over twenty years of computer aided
-            design, 3D modeling, field supervision, construction management, and
-            geographic information systems (GIS) experience on private,
-            governmental, and commercial projects throughout North and South
-            America.
-          </p>
+      <h1>Contact Me:</h1>
+      <form
+        id="form"
+        data-np-autofill-form-type="identity"
+        data-np-checked="1"
+        data-np-watching="1"
+      >
+        <div>
+          <label for="name">Name:</label><br />
+          <input
+            id="name"
+            type="text"
+            name="name"
+            data-np-autofill-field-type="fullName"
+            data-np-uid="a51ebda9-3e52-4b93-acd2-e72b28a2f951"
+          />
         </div>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/0/02/Tired_Office_Worker_Cartoon.svg"
-          class="homeContentImage"
-        />
+        <div>
+          <label for="email">Email:</label><br />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            data-np-autofill-field-type="email"
+            data-np-uid="3faa482a-aaa5-4509-b5df-36161c4a5f05"
+          />
+        </div>
+        <div>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="6" cols="50"></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </form>
+      <div class="homeContent">
+        <div class="homeTextContent"></div>
       </div>
       <footer>
         <a href="https://www.instagram.com/" target="_blank">
